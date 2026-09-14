@@ -3,7 +3,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            Text("Overview")
+            DashboardView()
                 .tabItem {
                     Label("Overview", systemImage: "chart.line.uptrend.xyaxis")
                 }
@@ -20,6 +20,7 @@ struct ContentView: View {
         }
     }
 }
+
 
 #Preview {
     ContentView()
