@@ -8,7 +8,7 @@ struct ContentView: View {
                     Label("Overview", systemImage: "chart.line.uptrend.xyaxis")
                 }
 
-            Text("Journal")
+            JournalView()
                 .tabItem {
                     Label("Journal", systemImage: "book")
                 }
